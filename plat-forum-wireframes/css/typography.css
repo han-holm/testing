@@ -1,0 +1,37 @@
+/* PLATOW Börse — Typography tokens
+   Family + the exact type ramp read from the platow.de Figma and the
+   brand heading spec. Sizes are verbatim (note the off-grid 13/22px). */
+:root {
+  --font-sans: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-ticker: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  /* Weights */
+  --fw-regular: 400; /* @kind other */
+  --fw-semibold: 600; /* @kind other */
+  --fw-bold: 700; /* @kind other */
+
+  /* Documented heading ramp (all #000) */
+  --h1-size: 32px; --h1-weight: 700;
+  --h2-size: 30px; --h2-weight: 700;
+  --h3-size: 32px; --h3-weight: 700;
+  --h4-size: 18px; --h4-weight: 600;
+  --h5-size: 18px; --h5-weight: 400;
+
+  /* Editorial styles as used on the homepage */
+  --section-heading-size: 22px;   /* "Deutsche Aktien" block titles, bold */
+  --article-title-size: 18px;     /* article headline links, bold */
+  --article-title-lh: 27px;
+  --category-size: 13px;          /* orange uppercase kicker, bold */
+  --category-lh: 15.6px;
+  --category-tracking: 0.02em;
+  --body-size: 18px;              /* dominant running copy */
+  --body-lh: 27px;
+  --meta-size: 14px;              /* nav, footer links, cite */
+  --meta-lh: 27px;
+  --small-size: 13px;             /* login/suche, footer meta */
+
+  /* Ticker (Inter) */
+  --ticker-name-size: 15.9px;     /* bold instrument name */
+  --ticker-value-size: 15.1px;    /* last / change */
+  --ticker-lh: 19.2px;
+}

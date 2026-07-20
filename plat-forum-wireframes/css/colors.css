@@ -1,0 +1,53 @@
+/* PLATOW Börse — Color tokens
+   Values transcribed verbatim from the platow.de Figma. */
+:root {
+  /* Brand */
+  --platow-orange: #ec5017;        /* --primary — the characteristic PLATOW orange */
+  --platow-orange-dark: #d34517;   /* pressed / cookie-consent buttons */
+
+  /* Ink & surface */
+  --black: #000000;                /* base text color for all headings */
+  --white: #ffffff;
+  --ink-body: #555555;             /* running body copy */
+  --surface: #ffffff;
+  --surface-muted: #fafafa;
+  --surface-live: #f8f9fa;         /* PLATOW Live band */
+  --border-hairline: #f2f2f2;      /* card & nav dividers */
+  --border-muted: #e6e6e6;
+  --rule-strong: #000000;          /* section-heading underline */
+
+  /* Ticker (dark market tape) */
+  --ticker-bg: #1f1f1f;
+  --ticker-panel: #404040;
+  --ticker-border: #4a4a4a;
+  --ticker-text: #dbdbdb;
+  --ticker-dim: #9c9c9c;
+  --quote-up: #089981;             /* positive quote (green) */
+  --quote-down: #f23645;           /* negative quote (red) */
+  --quote-flag: #ab47bc;           /* extended-hours flag */
+
+  /* Bootstrap palette carried by the theme */
+  --blue: #0d6efd;
+  --red: #dc3545;
+  --green: #198754;                /* success */
+  --yellow: #ffc107;               /* warning */
+  --cyan: #0dcaf0;                 /* info */
+  --secondary: #6c757d;
+  --gray-100: #f8f9fa;
+  --gray-200: #e9ecef;
+  --gray-300: #dee2e6;
+  --gray-400: #ced4da;
+  --gray-500: #adb5bd;
+  --gray-600: #6c757d;
+  --gray-700: #495057;
+  --gray-800: #343a40;
+  --gray-900: #212529;
+
+  /* Semantic aliases */
+  --text-heading: var(--black);
+  --text-body: var(--ink-body);
+  --text-accent: var(--platow-orange);
+  --text-category: var(--platow-orange);
+  --link: var(--platow-orange);
+  --link-hover: var(--platow-orange-dark);
+}
