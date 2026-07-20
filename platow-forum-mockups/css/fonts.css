@@ -1,0 +1,5 @@
+/* PLATOW Börse — Webfonts
+   The site uses Open Sans throughout, with Inter reserved for the
+   dark market-ticker tape. Both are the genuine typefaces used in the
+   source (not substitutions); served here from Google Fonts. */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;600;700&display=swap');
